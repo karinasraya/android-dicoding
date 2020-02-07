@@ -30,68 +30,16 @@ public class KatalogData {
     };
 
     private static int[] KatalogImages = {
-            R.drawable.c1,
-            R.drawable.c2,
-            R.drawable.c3,
-            R.drawable.c4,
-            R.drawable.c5,
-            R.drawable.c6,
-            R.drawable.c7,
-            R.drawable.c8,
-            R.drawable.c9,
-            R.drawable.c10
-    };
-
-    private static int[] KatalogHeader = {
-            R.drawable.head1,
-            R.drawable.head2,
-            R.drawable.head3,
-            R.drawable.head4,
-            R.drawable.head5,
-            R.drawable.head6,
-            R.drawable.head7,
-            R.drawable.head8,
-            R.drawable.head9,
-            R.drawable.head10
-    };
-
-    private static String[] KatalogPrice = {
-            "Rp. 20.896.825",
-            "Rp. 11.079.750",
-            "Rp. 17.794.750",
-            "Rp. 21.494.375",
-            "Rp. 36.800.750",
-            "Rp. 23.559.875",
-            "Rp. 17.945.625",
-            "Rp. 10.276.500",
-            "Rp. 15.274.500",
-            "Rp. 13.929.375"
-    };
-
-    private static String[] KatalogLogam = {
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver",
-            "Rose Gold, Yellow Gold, White Gold, Paladium, Platina, Silver"
-    };
-
-    private static String[] KatalogDiamond = {
-            "0.265-0.185, Swarovski, Polos",
-            "0.11-0.1, Swarovski, Polos",
-            "0.27-0.27, Swarovski, Polos",
-            "0.29-0.24, Swarovski, Polos",
-            "0.27-0.48, Swarovski, Polos",
-            "0.26-0.21, Swarovski, Polos",
-            "0.23-0.22, Swarovski, Polos",
-            "0.36-0.58, Swarovski, Polos",
-            "0.31-0.31, Swarovski, Polos",
-            "0.08-0.05, Swarovski, Polos"
+            R.drawable.ahmad_dahlan,
+            R.drawable.ahmad_yani,
+            R.drawable.bung_tomo,
+            R.drawable.gatot_subroto,
+            R.drawable.ki_hadjar_dewantara,
+            R.drawable.mohammad_hatta,
+            R.drawable.sudirman,
+            R.drawable.sukarno,
+            R.drawable.supomo,
+            R.drawable.tan_malaka
     };
 
     static ArrayList<katalog> getListData() {
@@ -101,10 +49,6 @@ public class KatalogData {
             katalog.setName(KatalogNames[position]);
             katalog.setDetail(KatalogDetails[position]);
             katalog.setPhoto(KatalogImages[position]);
-            katalog.setHeader(KatalogHeader[position]);
-            katalog.setPrice(KatalogPrice[position]);
-            katalog.setLogam(KatalogLogam[position]);
-            katalog.setDiamond(KatalogDiamond[position]);
             list.add(katalog);
         }
         return list;

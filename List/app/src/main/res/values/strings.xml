@@ -3,11 +3,4 @@
     <string name="product_name">Nama Produk</string>
     <string name="detail">Detail</string>
     <string name="about_me">About Me</string>
-    <string name="price">Harga</string>
-    <string name="logam">Logam</string>
-    <string name="diamond">Diamond</string>
-    <string name="spesifikasi">Spesifikasi</string>
-    <string name="jenislogam">Jenis Logam</string>
-    <string name="jenisdiamond">Jenis Diamond</string>
-    <string name="desc">Foto Katalog</string>
 </resources>
